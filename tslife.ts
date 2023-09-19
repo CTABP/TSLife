@@ -170,7 +170,9 @@ class PlayingWorld {
                 console.log("All points died")
             }
 
-            setTimeout("evolution", pause)
+            setTimeout(() => {
+                console.log('evolutio');
+            }, pause);
 
         } while (livePoints != 0 && !isOptimal)
 
