@@ -58,7 +58,7 @@ class PlayingWorld {
     private world: Cell[][] = []
 
     //предыдущее поколение
-    private previosWorld: Cell[][]
+    private previosWorld: Cell[][] =[]
 
     private readonly sizeX: number
     private readonly sizeY: number
